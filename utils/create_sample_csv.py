@@ -1,3 +1,6 @@
+# Utility file to generate CPU usage time
+# usage: python create_sample_csv.py k8s_cpu_usage.csv "2024-11-01 00:00:00" "2024-12-01 00:00:00"
+
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
